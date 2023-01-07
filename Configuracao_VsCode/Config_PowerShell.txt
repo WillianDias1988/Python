@@ -1,0 +1,8 @@
+/*Comando para ver a politica*/
+Get-ExecutionPolicy 
+
+/*Colocando a politica para todas assinaturas*/
+Set-ExecutionPolicy Allsigned -Force (pode ser usada a Restricted ou Unrestricted)
+
+/*Comando para rodar ativar o ambiente virtual no VsCode rodar no termina do VS*/
+.\venv\scripts\activate
