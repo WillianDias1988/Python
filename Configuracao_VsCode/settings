@@ -1,17 +1,14 @@
 {
     "editor.fontFamily": "'Droid Sans Mono', Menlo, consolas",
-    "workbench.iconTheme": "material-icon-theme",
     "editor.tabSize": 4,
     "editor.defaultFormatter": "ms-python.python",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
     "editor.insertSpaces": true,
     "editor.formatOnType": true,
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
     },
-    // Precisa instalar o Python e criar um ambiente virtual chamado venv
-    "python.pythonPath": " cls ; .\\venv\\Scripts\\python.exe",
-    // Precisa instalar o XAMPP (Windows)
-    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
     "code-runner.executorMap": {
         // Precisa instalar o nodejs
         "javascript": "node",
@@ -25,7 +22,7 @@
     },
     "code-runner.clearPreviousOutput": true,
     "code-runner.runInTerminal": true,
-    "workbench.startupEditor": "newUntitledFile",
+    "workbench.startupEditor": "none",
     "editor.minimap.enabled": false,
     "breadcrumbs.enabled": true,
     "window.zoomLevel": 0,
@@ -64,7 +61,6 @@
     "python.testing.unittestEnabled": false,
     "python.linting.mypyEnabled": true,
     "python.defaultInterpreterPath": "python",
-    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
     "cSpell.userWords": [
         "numero",
         "precisa",
