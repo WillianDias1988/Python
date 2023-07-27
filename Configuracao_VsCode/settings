@@ -68,5 +68,5 @@
     ],
     "explorer.compactFolders": false,
     "code-runner.ignoreSelection": true,
-    
+    "git.autofetch": true
 }
